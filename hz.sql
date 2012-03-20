@@ -1008,7 +1008,7 @@ CREATE TABLE `pansionat_ordermedicalprocedure` (
   PRIMARY KEY  (`id`),
   KEY `pansionat_ordermedicalprocedure_8337030b` (`order_id`),
   KEY `pansionat_ordermedicalprocedure_c3f9fb03` (`mp_type_id`)
-) ENGINE=MyISAM AUTO_INCREMENT=102 DEFAULT CHARSET=cp1251;
+) ENGINE=MyISAM AUTO_INCREMENT=107 DEFAULT CHARSET=cp1251;
 SET character_set_client = @saved_cs_client;
 
 --
@@ -1017,7 +1017,7 @@ SET character_set_client = @saved_cs_client;
 
 LOCK TABLES `pansionat_ordermedicalprocedure` WRITE;
 /*!40000 ALTER TABLE `pansionat_ordermedicalprocedure` DISABLE KEYS */;
-INSERT INTO `pansionat_ordermedicalprocedure` VALUES (101,5862,786,10,''),(100,5684,793,10,''),(99,5820,807,10,''),(98,5820,809,10,''),(97,5820,812,10,''),(96,5820,787,2,''),(95,5820,838,10,''),(94,5820,786,1,''),(93,5677,789,4,''),(92,5676,789,4,''),(91,5675,790,2,''),(90,5675,789,3,'аутотренинг');
+INSERT INTO `pansionat_ordermedicalprocedure` VALUES (106,5905,787,2,''),(105,5905,786,1,''),(104,5905,790,10,''),(103,5905,798,10,''),(102,5905,810,10,''),(101,5862,786,10,''),(100,5684,793,10,''),(99,5820,807,10,''),(98,5820,809,10,''),(97,5820,812,10,''),(96,5820,787,2,''),(95,5820,838,10,''),(94,5820,786,1,''),(93,5677,789,4,''),(92,5676,789,4,''),(91,5675,790,2,''),(90,5675,789,3,'аутотренинг');
 /*!40000 ALTER TABLE `pansionat_ordermedicalprocedure` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -1302,4 +1302,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-03-20  8:01:01
+-- Dump completed on 2012-03-20  9:01:01
